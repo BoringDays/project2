@@ -1,0 +1,54 @@
+body {
+	height: 100%;
+	background: #eee;
+	font-family: "Microsoft YaHei UI", Helvetica; /* there is no Microsoft YaHei on mobile environment, just for pc effects */
+}
+
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+.new-label {
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 1;
+	background: #57adfa;
+	color: #fff;
+	font-size: 12px;
+	padding-top: 5px;
+	width: 40px;
+	text-align: center;
+}
+
+.new-label:after {
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	content: "";
+	border-color: #57adfa transparent transparent transparent;
+	border-style: solid;
+	border-width: 6px 20px 0 20px;
+}
+
+.label-tag {
+	height: 18px;
+	line-height: 15px;
+	padding: 5px 0;
+	padding-left: 20px;
+	color: #898989;
+	margin-right: 20px;
+	font-size: 13px;
+}
+
+.label-tag:last-child {
+	margin-right: 0;
+}
+
+.tag-date {
+	background: url(../images/icon_03.png) 0 50% no-repeat;
+}
+
+.tag-money {
+	background: url(../images/icon_04.png) 0 50% no-repeat;
+}

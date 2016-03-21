@@ -1,0 +1,38 @@
+header h1 {
+    background-color: #1898fd;
+}
+
+.list-cell-top .icon-group {
+    color: #ff8a00;
+}
+
+.list-cell-top .icon-group li {
+    border: 1px solid #ff8a00;
+}
+
+.circle-inner {
+    background: #39a8ff;
+}
+
+.circle-wrap {
+    background: #e9f5fe;
+}
+
+.circle-inner .highest-percent {
+    -webkit-box-shadow: 0 1px 0 #0785e9, 0 2px 0 #75c2ff;
+    -moz-box-shadow: 0 1px 0 #0785e9, 0 2px 0 #75c2ff;
+    box-shadow: 0 1px 0 #0785e9, 0 2px 0 #75c2ff;
+}
+
+.list-cell-bottom .progress-bar {
+    background-color: #0174ce;
+}
+
+.btn-primary {
+    background-color: #39a8ff;
+    border: 1px solid #39a8ff;
+}
+
+.nav li.active .nav-tab-label {
+    color: #75c2ff;
+}

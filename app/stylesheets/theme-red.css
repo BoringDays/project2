@@ -1,0 +1,34 @@
+header h1 {
+    background-color: #f54359;
+}
+
+.list-cell-top .icon-group {
+    color: #f65e6a;
+}
+
+.list-cell-top .icon-group li {
+    border: 1px solid #f65e6a;
+}
+
+.circle-inner {
+    background: #fc7d88;
+}
+
+.circle-inner .highest-percent {
+    -webkit-box-shadow: 0 1px 0 #f16f7b, 0 2px 0 #fb919b;
+    -moz-box-shadow: 0 1px 0 #f16f7b, 0 2px 0 #fb919b;
+    box-shadow: 0 1px 0 #f16f7b, 0 2px 0 #fb919b;
+}
+
+.list-cell-bottom .progress-bar {
+    background-color: #d7313f;
+}
+
+.btn-primary {
+    background-color: #fb7782;
+    border: 1px solid #fb7782;
+}
+
+.nav li.active .nav-tab-label {
+    color: #e63c49;
+}
